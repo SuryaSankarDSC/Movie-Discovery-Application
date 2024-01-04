@@ -1,0 +1,97 @@
+/* Footer.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Add a background color for the body */
+  }
+  
+  .Container {
+    display: flex;
+    background-color: #333; /* Set the dark color for the footer */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .Left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .Logo {
+    color: #fff; /* Set color for the logo */
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .Desc {
+    margin: 20px 0;
+    color: #ccc; /* Set color for the description text */
+  }
+  
+  .SocialContainer {
+    display: flex;
+  }
+  
+  .SocialIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: black; /* Replace 'yourDefaultColor' with the actual default color you want */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  
+  .Center {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .Title {
+    margin-bottom: 20px;
+    color: #fff; /* Set color for the title */
+  }
+  
+  .List {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .ListItem {
+    width: 50%;
+    margin-bottom: 10px;
+    color: #ccc; /* Set color for the list items */
+  }
+  
+  .Right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .ContactItem {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    color: #ccc; /* Set color for the contact items */
+  }
+  
+  .Payment {
+    width: 50%;
+  }
+  
+  .Payment img {
+    width: 100%;
+  }
+  

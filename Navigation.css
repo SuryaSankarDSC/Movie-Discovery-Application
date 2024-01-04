@@ -1,0 +1,44 @@
+/* Navigation.css */
+
+.navigation-container {
+    background-color: #333; /* Set background color for the navigation bar */
+    padding: 10px; /* Add padding for better appearance */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Set a high z-index to make sure it appears on top of other elements */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect for background color */
+  }
+  
+  .navigation-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the navigation links */
+  }
+  
+  .navigation-item {
+    display: inline-block;
+    margin-right: 15px; /* Add some space between navigation items */
+  }
+  
+  .navigation-link {
+    text-decoration: none;
+    color: #fff; /* Set the color of the navigation links */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px; /* Add rounded corners for a nicer look */
+    transition: color 0.3s ease; /* Add a smooth transition effect for text color */
+  }
+  
+  .navigation-link:hover {
+    color: #ffcc00; /* Change the text color on hover */
+  }
+  
+  /* Optional: Add a box shadow for a subtle depth effect */
+  .navigation-container {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
